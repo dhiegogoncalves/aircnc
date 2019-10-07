@@ -1,8 +1,6 @@
 # Aircnc
 
-> Este projeto é uma sistema de aluguel de spots para desenvolvedores nas empresas, desenvolvido com as tecnologias Node.js + ReactJS + React Native.
-
----
+> Este projeto é uma sistema de aluguel de spots para desenvolvedores nas empresas, desenvolvido com as tecnologias Node.js + ReactJS + React Native (Expo).
 
 ## Site
 
@@ -13,8 +11,6 @@ O site foi desenvolvido para as empresas cadastras seus spots.
 ## Iniciar a aplicacão :checkered_flag:
 
 A aplicação está dividida em três partes, sendo elas: Backend, Frontend e Mobile.
-
----
 
 ## Backend
 
