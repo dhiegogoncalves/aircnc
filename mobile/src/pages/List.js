@@ -4,13 +4,15 @@ import {
   ScrollView,
   SafeAreaView,
   AsyncStorage,
-  Image
+  Image,
+  TouchableOpacity,
+  Text
 } from 'react-native';
 
 import logo from '../assets/logo.png';
 import SpotList from '../components/SpotList';
 
-export default function List() {
+export default function List({ navigation }) {
   const [techs, setTechs] = useState([]);
 
   useEffect(() => {
@@ -21,8 +23,16 @@ export default function List() {
     });
   }, []);
 
+  async function logout() {
+    await AsyncStorage.multiRemove(['user', 'techs']);
+    navigation.navigate('Login');
+  }
+
   return (
     <SafeAreaView style={styles.container}>
+      <TouchableOpacity onPress={logout} style={styles.button}>
+        <Text style={styles.buttonText}>X</Text>
+      </TouchableOpacity>
       <Image style={styles.logo} source={logo} />
       <ScrollView>
         {techs.map(tech => (
@@ -41,6 +51,22 @@ const styles = StyleSheet.create({
     height: 32,
     resizeMode: 'contain',
     alignSelf: 'center',
-    marginTop: 50
+    marginTop: 15
+  },
+  button: {
+    width: 30,
+    height: 26,
+    backgroundColor: '#f05a5b',
+    borderRadius: 2,
+    marginTop: 50,
+    marginRight: 20,
+    alignSelf: 'flex-end'
+  },
+  buttonText: {
+    flex: 1,
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize: 16,
+    textAlign: 'center'
   }
 });
