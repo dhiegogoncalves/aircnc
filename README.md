@@ -10,7 +10,7 @@ O site foi desenvolvido para as empresas cadastrar seus spots com as tecnologias
 
 ## Mobile
 
-O mobile foi desenvolvido para os desenvolvedores se cadastrar nos spots das empresas, baseado nas tecnologias.
+O mobile foi desenvolvido para os desenvolvedores se cadastrar nos spots das empresas baseando-se nas tecnologias escolhidas.
 
 ![Sem título](https://user-images.githubusercontent.com/6399309/66444367-fa3a1e80-ea10-11e9-8fbb-3e553e7a1eea.png)
 
