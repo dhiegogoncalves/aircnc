@@ -10,9 +10,9 @@ O site foi desenvolvido para as empresas cadastrar seus spots com as tecnologias
     <img src="frontend/print2.png" alt="drawing" width="700"/>
 </p>
 
-## Mobile
+## Aplicativo
 
-O mobile foi desenvolvido para os desenvolvedores se cadastrar nos spots das empresas baseando-se nas tecnologias escolhidas.
+O aplicativo foi desenvolvido para os desenvolvedores se cadastrar nos spots das empresas baseando-se nas tecnologias escolhidas.
 
 <p align="center">
     <img src="mobile/print.png" alt="drawing" width="250"/>
