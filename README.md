@@ -6,13 +6,18 @@
 
 O site foi desenvolvido para as empresas cadastrar seus spots com as tecnologias e o valor do ambiente por dia.
 
-![Capturar](https://user-images.githubusercontent.com/6399309/66276392-983ab700-e860-11e9-937e-d5b4100a7639.PNG)
+<p align="center">
+    <img src="frontend/print2.png" alt="drawing" width="700"/>
+</p>
 
 ## Mobile
 
 O mobile foi desenvolvido para os desenvolvedores se cadastrar nos spots das empresas baseando-se nas tecnologias escolhidas.
 
-![Sem título](https://user-images.githubusercontent.com/6399309/66444367-fa3a1e80-ea10-11e9-8fbb-3e553e7a1eea.png)
+<p align="center">
+    <img src="mobile/print.png" alt="drawing" width="250"/>
+    <img src="mobile/print2.png" alt="drawing" width="250"/>
+</p>
 
 ## Iniciar a aplicacão :checkered_flag:
 
