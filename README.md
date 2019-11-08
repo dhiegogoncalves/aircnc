@@ -1,6 +1,6 @@
 # Aircnc
 
-> Este projeto é uma sistema de aluguel de spots para desenvolvedores nas empresas, desenvolvido com as tecnologias Node.js + Socket.IO + ReactJS + React Native (Expo).
+> Este projeto é uma sistema de aluguel de spots para desenvolvedores nas empresas, desenvolvido com as tecnologias: Node.js + Socket.IO + ReactJS (Redux, Saga) + React Native (Expo).
 
 ## Site
 
